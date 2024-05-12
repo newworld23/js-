@@ -26,7 +26,29 @@ true => 1; false => 0
 */
 let isLoggedIn = 1
  let booleanIsLoggedIn = Boolean(isLoggedIn);
- console.log(booleanIsLoggedIn)
+ //console.log(booleanIsLoggedIn)
  //1 => true; 0 => false;
  //"" => false
  //"sfd" => true 
+
+
+ /*****************OPERATIONS*****************/
+ let str1 = "hello"
+ let str2 = " bishal"
+
+ let str3 =str1+str2;
+
+ console.log(str3);
+
+
+ let gameCounter1 = 100;
+ gameCounter1++;
+ console.log(gameCounter1)
+
+
+let gameCounter2 = 100;
+ ++gameCounter2;
+ console.log(gameCounter2)
+
+ //postfix and prefix in js mdn docs
+ 

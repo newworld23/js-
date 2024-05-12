@@ -16,3 +16,10 @@ let isLoggedIn = false // boolean ==> true/false
  //object
 
  console.table([typeof undefined, typeof null])
+
+
+ let a = "myname";
+ let b = 25;
+ let c = null;
+
+ console.table([typeof a ,typeof b, typeof c]);
