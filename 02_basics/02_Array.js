@@ -14,7 +14,7 @@ const allHero = [...animal,...bird]//this is spread operator, works same as conc
 
 const another_array= [1,2,3,[4,5,6],7,[8,[9,10],11],15];
 
-const real_another_array = another_array.flat(2)
+const real_another_array = another_array.flat(2)//The flat() method of Array instances creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 console.log(real_another_array)
 
 console.log(Array.isArray("bishal"))// checks if its an arrary or not.
@@ -33,4 +33,4 @@ let score1 =100;
 let score2 =200;
 let score3 =300;
 
-console.log(Array.of(score1,score2,score3));
+console.log(Array.of(score1,score2,score3));//The Array.of() static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
