@@ -26,3 +26,32 @@ const obj2 = {3:"c", 4: "d"}
 
 const obj = {...obj1,...obj2}
 console.log(obj);
+
+const user = [
+    {
+        id: 1,
+        email: "hb@gmail.com"
+    },
+    {
+        id: 1,
+        email: "hb@gmail.com"
+    },{
+        id: 1,
+        email: "hb@gmail.com"
+    }
+]
+
+//when we get data from a database then it comes in the form of array of objects.
+// so we can use the index as we use in array to access a particular element in an array. and when we need to access a data inside the object we can use the "." notation to access the key value of the data we require.
+
+console.log(user[1].email);
+
+
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('IsLoggedIn'));
+
