@@ -55,3 +55,15 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('IsLoggedIn'));
 
+
+
+const course = {
+    coursename : " javascript",
+    price: "999",
+    courseInsructor : "Bishal"
+}
+
+const {courseInsructor : instructor} = course // here we destructured the object : this is called as object Destructuring.
+//console.log(courseInsructor)
+console.log(instructor);
+
