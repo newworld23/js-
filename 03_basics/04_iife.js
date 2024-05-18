@@ -17,12 +17,15 @@ chai()
 })(); // we have explicitly used ";" so that the IIFE knows where to end or stop the context.
 
 /*
-IIFE Syntax
-
+IIFE Syntax:
 (function defination)(execution call)
 
 
-important note: IIFE immedietly invokes  a function but it doesnt known when to stop a context so we need to use ";" to avoid error.
+Important Note: IIFE immedietly invokes  a function but it doesnt known when to stop a context so we need to use ";" to avoid error.
+for eg:
+below there are two IIFE function
+()();
+()()
 */
 //arrow function
 ((name) =>{
